@@ -1,0 +1,237 @@
+@charset "gbk";
+/* CSS Document */
+body,div,p,input,a,textarea,ul,li,h1,h2,h3,h4,h5,h6,span{margin:0;padding:0;}
+body{background:#f5f5f5;}
+body,input{font:normal 16px "微软雅黑";}
+ul li{list-style:none;}
+.warp,#footer{min-width:320px;}
+#header{height:36px;background:#0a315a;position:relative;}
+a{text-decoration:none;}
+.fl{float:left;}
+.fr{float:right;}
+
+.clear{overflow:hidden;}
+.c_01{color:#999;}
+.fs_22{font-size:22px;}
+
+.pt_14{padding-top:14px;}
+.pt_8{padding-top:8px;}
+.mt_20{margin-top:20px;}
+.ml_20{margin-left:20px;}
+.ml_26{margin-left:26px;}
+.mt_28{margin-top:28px;}
+.mt_30{margin-top:30px;}
+
+.mb_6{margin-bottom:6px;}
+
+
+.meb_return{float:left;background:url(eb_bg08.gif) no-repeat right top;}
+.meb_return a{display:inline-block;padding:0 18px 0 15px;}
+.meb_homeTit{text-align:center;}
+.homeTit_con{color:#ededed;line-height:36px;font-size:16px;}
+/* 2013年5月23日 16:19
+ * 修改 font-size:24px; -> font-size:16px;
+ * 修改 line-height:60px; -> line-height:36px;
+*/
+.meb_returnHome a{display:inline-block;padding:8px 15px 8px 18px;}
+
+.meb_returnHome{float:right;background:url(eb_bg08.gif) no-repeat left top;}
+.meb_login_input{width:90%;margin:0 auto;}
+.meb_con{margin-bottom:296px;}
+.meb_con .meb_login_text{margin-top:30px;border-radius:5px;width:100%;border:solid 1px #cccccc;background:#fff;overflow:hidden;padding:10px 0;}
+/* 2013年5月23日 15:43
+ * 删除 height:60px;
+ * 增加 margin-top:30px;
+ * 增加 padding:10px 0;
+ */
+.meb_con input[type="text"],.meb_con input[type="password"]{width:90%;border:0 none;outline:none;padding-left:20px;}
+/* 2013年5月23日 15:37
+ * 删除 line-height:56px;height:56px;
+ * 增加 ,.meb_con input[type="text"]
+ * 修改 width:100% -> width:90%
+ */
+
+.meb_login_submit{background:#0a315a;border:none;border-radius:5px;cursor:pointer;width:100%;padding:10px 0;color:#fff;font-weight:bold;}
+/* 2013年5月23日 15:47
+ * 删除 height:60px;
+ * 修改 background 为 #0a315a
+ * 增加 padding:10px 0;
+ */
+.footer{background:#dadde0;height:108px;border-top:solid 2px #c5c7cb;position:relative;width:100%;}
+.home_footer{position:fixed;bottom:0;}
+.meb_link_login,.meb_returnTop{position:absolute;top:24px;border:solid 2px #9ca3ab;border-radius:5px;}
+.meb_link_login{left:48px;background:url(eb_bg06.gif) no-repeat center center #fff;width:58px;height:27px;padding:13px 18px;}
+.meb_topc{background:url(eb_bg05.gif) no-repeat center center;width:147px;height:108px;display:inline-block;margin-left:33%;}
+.meb_returnTop{background:url(eb_bg07.gif) no-repeat center center #fff;width:126px;height:28px;right:48px;padding:15px 17px 11px 19px;}
+.meb_error{color:#cc0000;font-size:28px;height:42px;margin:30px 0 0 0;}
+
+.meb_discuss{width:90%;margin:0 auto;}
+.meb_discuss .dis_texta{width:100%;height:124px;border-radius:5px;border:solid 1px #ccc;margin-top:32px;background:#fff;overflow:hidden;margin:32px 0 0 0;}
+.meb_discuss .b2c_show{color:#333;margin-bottom:40px;}
+.dis_texta textarea{outline:none;width:96%;margin:10px 2%;height:104px;border:none;resize:none;line-height:20px;}
+.dis_submit{width:100%;padding:10px 0;background:#0a315a;color:#fff;font-size:16px;border-radius:5px;cursor:pointer;border:none;margin-top:20px;}
+
+.dis_list{border-top:solid 1px #cbcbcb;border-bottom:solid 1px #fff;margin-top:28px;margin-bottom:28px;}
+.dis_list li{border-top:solid 1px #fff;border-bottom:solid 1px #cbcbcb;color:#333;line-height:22px;padding-bottom:25px;}
+
+
+.meb_show,.details_link{color:#000;width:100%;display:inline-block;border:solid 1px #ccc;text-align:center;border-radius:5px;background:#ededed;margin-bottom:40px;padding:10px 0;}
+.allNav_list{width:90%;margin:0 auto 40px auto;}
+.allNav_list li{font-size:16px;border-top:solid 1px #fff;border-bottom:solid 1px #cbcbcb;padding:25px 0 15px 0;}
+.allNav_list h3{width:65px;margin-bottom:10px;display:block;text-align:left;color:#0a315a;font-size:16px;}
+.allNav_list h3 a{width:auto;display:inline;}
+.list_a{width:100%;display:inline-block;}
+.list_con a{display:inline-block;color:#0a315a;width:24%;}
+.list_con{width:100%;margin-bottom:15px;}
+
+
+
+.allNav_footer{height:93px;font-size:14px;}
+/* 2013年5月23日 15:21
+ * 修改 font-size:15px; -> font-size:14px;
+ */
+.allNav_link{text-align:center;margin-top:16px;}
+.allNav_down{width:100%;}
+.allNav_down div{display:inline-block;margin-top:13px;text-align:center;}
+.allNav_enter,.allNav_login,.allNav_returnTop{display:inline-block;position:static;border:solid 1px #9ca3ab;border-radius:5px;padding:6px 10px;background:#fff;color:#333;}
+.allNav_returnTop{background:url(eb_bg07.gif) no-repeat 90% center #fff;padding-right:28px;}
+.allNav_link a{color:#000;padding:0 17px;display:inline-block;}
+.allNav_rigBor{border-right:solid 1px #cbcbcb;}
+.allNav_leftBor{border-left:solid 1px #fff;}
+
+.home_header{width:100%;background:#0a315a;height:36px;}
+.b2c_header{background:#0a315a;}
+.home_nav{background:#04182e;overflow:hidden;}
+.home_nav ul{width:100%;margin:5px 0;}
+.home_nav li{display:inline-block;text-align:center;padding:5px 0;width:15%;}
+.home_nav li.box_four{width:20%;}
+.home_nav a{color:#fff;font-size:16px;}
+
+.home_slide img{background:url(img01.jpg);width:100%;}
+.home_news_box,.b2c_con{width:90%;margin:0 auto;padding:14px 0;}
+/* 2013年5月23日 14:52
+ * 增加 padding-top:14px;
+ */
+.home_news_box li,.b2c_con li{border-bottom:solid 1px #cbcbcb;border-top:solid 1px #fff;padding:10px 0;}
+/* 2013年5月23日 15:03
+ * 删除 height:33px;line-height:33px;
+ * 2013年5月23日 15:11
+ * 增加 padding:10px 0;
+ */
+.home_news_box a,.b2c_con a{color:#333;}
+/* 2013年5月23日 14:57
+ * 删除 font-size:1em;
+ */
+.home_news_box li.nb_b,.b2c_con li.nb_b{border-bottom:none;}
+.home_news_box li.nb_t,.b2c_con li.nb_t{border-top:none;}
+
+.b2c_tit{background:#ededed;border-top:solid 1px #c5c7cb;border-bottom:solid 2px #0a315a;}
+/* 2013年5月23日 11:58
+ * 删除 height:41px;
+ */
+
+.b2c_news h2{font-size:16px;margin:10px 0 10px 14px;line-height:15px;}
+.b2c_news h2 a{color:#0a315a;}
+/* 2013年5月23日 11:53
+ * 修改 font-size:20px; -> font-size:16px;
+ * 
+ */
+
+.b2c_nav{margin-top:10px;}
+
+.b2c_nav span{border-right:solid 1px #cbcbcb;border-left:solid 1px #fff;padding:0 6px;float:left;line-height:15px;}
+.b2c_nav a{color:#000;}
+.b2c_nav span.nb_l{border-left:none;}
+.b2c_nav span.nb_r{border-right:none;}
+.b2c_con h3{text-align:center;font-size:18px;margin-top:16px;padding-bottom:16px;border-bottom:solid 1px #cbcbcb;}
+.b2c_con h3 a{color:#cc0000;}
+
+.b2c_link{display:-webkit-box;display:box;display:-moz-box;margin:20px 0 140px 0;width:100%;}
+.b2c_link p{-webkit-box-flex:1;box-flex:1-moz-box-flex:1;text-align:center;font-size:1em;}
+.b2c_link a{display:inline-block;border:solid 1px #9ca3ab;border-radius:5px;padding:9px 22px;font-size:14px;}
+
+.b2c_home_nav{background:#cedff2;font-size:16px;}
+.b2c_home_nav a{color:#0a315a;}
+.b2c_home_nav ul{display:block;margin-left:10%;width:90%;}
+.b2c_home_nav li{text-align:left;float:left;width:25%;}
+
+
+
+.b2c_show{border-radius:5px;margin-top:20px;width:100%;background:#ededed;border:solid 1px #ccc;display:inline-block;text-align:center;padding:10px 0;}
+.b2c_footer{height:100px;}
+.b2c_footer .b2c_footer_link{text-align:center;margin-top:31px;}
+.b2c_footer_link a{color:#000;}
+.b2c_head{width:100%;background:#0a315a;height:36px;line-height:36px;font-size:14px;} 
+/* 2013年5月23日 10:40 
+ * 增加 width:100%; 
+ * 2013年5月23日 11:02
+ * 修改 height:33px; -> height:36px;
+ * 增加 font-size:14px;
+ * 增加 line-height:36px;
+*/
+
+
+.b2c_head a{font-size:14px;}
+/* 2013年5月23日 11:51
+ * 增加 .b2c_head a{font-size:14px;}
+ */
+
+
+/*.pub_nav{} 2013年5月23日
+ * 修改 height:88px; -> height:36px; 
+ * 删除 height:36px; 
+ * 删除 .pub_nav 样式
+ */
+
+.pub_nav a{color:#fff;display:inline-block;padding:0 20px 0 12px;}
+/* 2013年5月23日 10:52
+ * 修改 line-height:33px; -> line-height:36px;
+ * 2013年5月23日 11:04
+ * 删除 line-height:36px;
+ */
+
+.meb_pub_nav{background:url(eb_bg11.gif) no-repeat right top;}
+.text_details{width:90%;margin:0 auto;}
+.text_details article p{color:#333;margin-bottom:20px;line-height:26px;}
+.text_details h2{font-size:20px;margin-top:20px;}
+.text_details h3{font-size:12px;color:#666;margin-top:14px;padding-bottom:12px;border-bottom:solid 1px #cbcbcb;}
+.details_con{border-top:#fff;padding-top:28px;}
+.details_con p{text-indent:2em;}
+.details_con p img{	max-width:280px; height:auto; text-align:center; margin-left:-2em;}
+
+.details_show{background:#dcdcdc;padding:10px 0;width:100%;display:inline-block;color:#999;text-align:center;}
+
+
+.details_client{width:90%;margin:40px auto;background:#fff;border:solid 2px #9ca3ab;border-radius:5px;padding:11px 6px 10px 6px;position:relative;}
+.detail_down{margin-top:47px;font-size:18px;color:#fff;border:solid 1px #1957a8;border-radius:5px;background-image: -webkit-linear-gradient(top, #4baef3, #3977cb);background-image:-moz-linear-gradient(top, #4baef3, #3977cb);text-align:center;text-shadow:1px -1px 0px #2c6692,;margin-right:17px;}
+.details_client hgroup{float:left;margin-left:20px;}
+.details_client hgroup h3{font-size:20px;color:#666;margin-top:10px;}
+.details_client hgroup h2{font-size:26px;color:#333;}
+
+.related_read{width:90%;margin:0 auto;background:#fff;}
+.related_read h2{border-bottom:solid 2px #0a315a;color:#0a315a;font-size:16px;padding:10px 0;padding-left:10px;}
+.related_read ul{margin-top:7px;}
+.related_read li{padding:10px 0;padding-left:16px;border-bottom:solid 1px #cbcbcb;}
+.related_read a{color:#333;}
+.details_link{display:block;margin:0 auto;margin-top:20px;width:90%;margin-bottom:20px;}
+
+
+/* 幻灯 */
+.home_slide{overflow:hidden;position:relative;}
+.home_slide ul{display:block;-moz-transition:400ms ease;-webkit-transition:400ms ease;}
+.home_slide li{float:left;line-height:0;position:relative;}
+.slide_info{width:100%;height:28px;background-color:rgba(0,0,0,0.5);position:absolute;bottom:0;left:0;}
+.info_page{margin:10px 10px 0 0;}
+.info_page a{display:inline-block;width:5px;height:5px;background:#777878;border-radius:3px;margin-left:14px;outline:none;}
+.info_page a.hover{background:#fff;}
+.info_text{color:#fff;font-size:0.875em;line-height:28px;}
+
+.discuss_con{width:90%;margin:0 auto;margin-top:40px;}
+.discuss_con h2{border-bottom: solid 2px #0a315a;color: #0a315a;font-size: 16px;padding: 10px 0;padding-left: 10px;background:#fff;}
+.rela_com{font-weight:normal;margin-right:2%;font-size:14px;}
+.rela_com a{color:#000;}
+.rela_com .c_red{color:#cc0000;}
+
+.waphome_topadv01{position:relative;}
+.topadv01_close{position:absolute;background:url(../topadv_close.png);width:31px;height:31px;display:block;right:3%;top:10%;}
+.waphome_midadv02{margin:40px 0;}
